@@ -1,0 +1,151 @@
+/* ################################################## */
+/* ########### YOUR CUSTOM CSS ########### */
+/* ################################################## */
+*{
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+#page-header {
+    background-color: black;
+    border-bottom: 5px solid yellow;
+   }
+
+   div.wrapper {
+     display: flex;
+     justify-content: row;
+     justify-content: space-around;
+   
+   }
+  h1 a {
+    color: #F2FF00;
+    text-decoration-line: none;
+    font: 24px 'Merriweather';
+    padding: 15px 20px;
+  }
+
+  li a{
+    color: white;
+    padding: 0 10px;
+    font: 18px 'Oswald';
+    text-decoration-line: none;
+   }
+
+h1 {
+  display: flex;
+  align-self: center;
+}
+
+.blurb h2 {
+  font-weight: bold;
+  font: 24px 'Merriweather';
+  line-height: 3em;
+}
+
+.tout h3 {
+  font-weight: bold;
+  font: 18px 'Merriweather';
+  line-height: 1.25em;
+}
+
+.tout p {
+  line-height: 1.5em
+  }
+.tout {
+  border-right: solid;
+  border-color: #adadad ;
+  }
+
+  .tout:last-of-type{
+    border-right: none;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row; 
+    list-style: none;
+    align-content: space-between;
+    align-items: center; 
+    padding: 25px 20px;
+  }
+
+.banner {
+  background-image: url('https://res.cloudinary.com/jkeohan/image/upload/v1607432403/coworking_nxwjrp.jpg');
+  background-repeat: no-repeat;
+  height: 650px;
+  width: 950px;
+}
+
+section.banner div.wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+div.blurb {
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px;
+  width: 350px;
+  /* opacity: .7; */
+  margin: 25px;
+}
+
+.blurb .button {
+  color: black;
+  background-color:#f2ff00;
+  border-radius: 5px;
+  padding: 10px 45px;
+  text-align: center;
+  text-decoration-line: none;
+  font-weight: 900;
+  text-transform: uppercase;
+  font: 18px 'Oswald';
+  margin: 15px;
+ 
+}
+
+.blurb {
+  background-color: rgb(236, 229, 227, 0.7);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  }
+
+section.touts {
+  display: flex;
+  padding: 25px;
+}
+
+section.tout {
+  display: flex;
+  flex-direction: column; /* why doesn't this move the options over center? */
+  background-color: white;
+  padding: 40px;
+  
+}
+
+section.tout a.button {
+  color: black;
+  width: 200px;
+  background-color: #adadad ;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration-line: none;
+  font-weight: bold;
+  margin: 30px 0 0 0;
+  border-radius: 7px;
+  text-transform: uppercase;
+  font: 14px 'Oswald';
+}
+
+footer div.wrapper {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  padding: 35px 0 25px 30px;
+}
+
+
+/* BACKGROUND IMAGE URL */
+/* https://res.cloudinary.com/jkeohan/image/upload/v1607432403/coworking_nxwjrp.jpg */
